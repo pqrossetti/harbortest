@@ -4,6 +4,10 @@ RUN mkdir -p /harbortest
 
 ADD . /harbortest
 
+ENV NAME harbortest
+
+ENV VERSION 0.1.0
+
 RUN cd /harbortest; npm install;
 
 CMD [ "node", "/harbortest/index.js" ]
