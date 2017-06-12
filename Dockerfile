@@ -6,7 +6,7 @@ ADD . /harbortest
 
 ENV NAME harbortest
 
-ENV VERSION 0.1.0
+ENV VERSION 0.1.1
 
 RUN cd /harbortest; npm install;
 
